@@ -1,0 +1,49 @@
+
+
+.box{
+    position: relative;
+}
+
+.modalLogin{
+    width: 300px;
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 20px 10px 10px 30px;
+    position: absolute;
+    top: 50px;
+    right: 400px;
+    border-radius: 15px;
+    transition: all 1s;
+    opacity: 1;
+}
+
+.box h1{
+    margin-bottom: 20px;
+}
+.modalLogin .mailpass{
+    width: 240px;
+    height: 25px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.log{
+    width: 100px !important;
+    height: 40px !important;
+}
+
+.box input{
+    margin-top: 10px;
+}
+
+.box .modalLogin .login{
+    margin-left: 157px !important;
+    margin-top: 5px !important;
+    width: 80px !important;
+}
+
+.hidden-modal{
+    transform: translateY(-400px);
+}
